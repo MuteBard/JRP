@@ -1,0 +1,50 @@
+@font-face {
+  font-family: 'Avenir_Heavy_Oblique';
+  src: url("./fonts/Avenir Heavy Oblique.otf") format "truetype"; }
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.heading1 {
+  font-size: 0.7em;
+  background-color: #434343;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .heading1 .box {
+    font-family: "Avenir_Heavy_Oblique", sans-serif;
+    color: #939DAB;
+    text-align: center;
+    line-height: 50px;
+    padding: 0 10px; }
+    .heading1 .box:hover {
+      color: #bec7d5; }
+  .heading1 .b1 {
+    margin-left: 15em;
+    font-size: 1.6em;
+    border: 5px solid red;
+    width: 3.4em; }
+    .heading1 .b1 .innerb1 {
+      border: 5px solid coral;
+      text-align: center;
+      color: #00D646; }
+      .heading1 .b1 .innerb1:hover {
+        color: #00d646; }
+  .heading1 .b2 {
+    margin-left: 10em;
+    border: 5px solid cyan;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .heading1 .b2 .innerb2 {
+      color: #00D646;
+      border: 5px solid green; }
+      .heading1 .b2 .innerb2:hover {
+        color: #00d646; }
+    .heading1 .b2 .innerb3 {
+      border: 5px solid purple; }
+    .heading1 .b2 .innerb4 {
+      border: 5px solid green; }

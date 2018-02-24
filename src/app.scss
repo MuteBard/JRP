@@ -1,0 +1,108 @@
+//borders tests
+$border1 : red;
+$border2 : cyan;
+$border3 : green;
+$border4 : purple;
+$border5 : blue;
+$border6 : pink;
+$border7 : coral;
+$border8 : yellow;
+
+
+//colors
+$green : #00D646;
+$text-inactive : #939DAB;
+$text-active : #BEC7D5;
+$white: #FFFFFF;
+$blue: rgba(1, 177, 175, 1);
+
+//fonts
+$textfont : 'Avenir_Heavy_Oblique', sans-serif;
+
+//sizes
+$h1textsize : 0.7em;
+$logosize : 1.6em; 
+
+@font-face{
+    font-family: 'Avenir_Heavy_Oblique';
+    src: url('./fonts/Avenir Heavy Oblique.otf') format ('truetype');
+}
+
+*{
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;    
+}
+
+.heading1{
+    font-size: $h1textsize;
+    background-color : #434343;
+    display: flex; 
+    // flex-wrap: wrap;
+    // justify-content: space-between;
+    // display: inline-flex;
+    // margin-top :.5em;
+    // margin-bottom :.5em;
+    
+    .box{
+        font-family: $textfont;
+        color : $text-inactive;
+        text-align: center;
+        line-height: 50px;
+        padding: 0 10px;
+        &:hover{
+            color : change-color($text-inactive, 190, 199, 213); 
+        }
+    }
+
+    .b1{
+        margin-left: 15em;
+        font-size: $logosize;
+        border : 5px solid $border1;
+        // border-radius: 50%;
+        width: 3.4em;  
+        .innerb1{      
+            border : 5px solid $border7;
+            text-align: center;  
+ 
+
+            // box-shadow: 0 0 10px 5px $border5;
+            color : $green;
+            // border : 5px solid $border5;
+            // border-radius: 50%;
+            // width: 3.4em;
+            &:hover{
+                color : change-color($green, 0, 214, 70); 
+            }
+
+        }
+    }
+
+    .b2{
+        margin-left: 10em;
+        border : 5px solid $border2;
+        display: flex; 
+
+              
+        .innerb2{
+            color : $green;
+            border : 5px solid $border3;
+            &:hover{
+                color : change-color($green, 0, 214, 70); 
+            }
+        }
+
+        .innerb3{
+            border : 5px solid $border4;
+        }
+
+        .innerb4{
+            border : 5px solid $border3;
+        }
+    }
+
+
+}
+
+
+

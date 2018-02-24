@@ -5,13 +5,13 @@ class Heading1 extends Component {
     render() {
         return (
             <div className="heading1">
-                <div className="box b1">
-                   <div className ="innerb1"> R </div>
+                <div className="h1box h1b1">
+                   <div className ="h1innerb1"> R </div>
                 </div>
-                <div className="box b2">
-                    <div className="box innerb2">HOME</div>
-                    <div className="box innerb3">PORTFOLIO</div>
-                    <div className="box innerb4">CONTACT</div>
+                <div className="h1box h1b2">
+                    <div className="h1box h1innerb2">HOME</div>
+                    <div className="h1box h1innerb3">PORTFOLIO</div>
+                    <div className="h1box h1innerb4">CONTACT</div>
                 </div>
             </div>
         );

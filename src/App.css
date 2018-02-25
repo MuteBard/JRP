@@ -6,100 +6,162 @@
   font-family: 'Lulo_Clean_One_Bold';
   src: url("./fonts/Lulo_Clean_One_Bold.otf"); }
 
+@font-face {
+  font-family: 'Avenir_Light';
+  src: url("./fonts/Avenir Light.otf"); }
+
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
-
-.heading1 {
-  border: 5px solid coral;
-  font-size: 0.7em;
-  background-color: #434343;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex; }
-  .heading1 .h1box {
-    font-family: "Avenir_Heavy_Oblique", wingdings;
-    color: #939DAB;
-    text-align: center;
-    line-height: 50px;
-    padding: 0 10px; }
-    .heading1 .h1box:hover {
-      color: #bec7d5; }
-  .heading1 .h1b1 {
-    margin-left: 15em;
-    font-size: 1.6em;
-    border: 5px solid red;
-    width: 3.4em; }
-    .heading1 .h1b1 .h1innerb1 {
-      border: 5px solid coral;
-      text-align: center;
-      color: #00D646; }
-      .heading1 .h1b1 .h1innerb1:hover {
-        color: #00d646; }
-  .heading1 .h1b2 {
-    margin-left: 10em;
-    border: 5px solid cyan;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex; }
-    .heading1 .h1b2 .h1innerb2 {
-      color: #00D646;
-      border: 5px solid green; }
-      .heading1 .h1b2 .h1innerb2:hover {
-        color: #00d646; }
-    .heading1 .h1b2 .h1innerb3 {
-      border: 5px solid purple; }
-    .heading1 .h1b2 .h1innerb4 {
-      border: 5px solid green; }
-
-.contentcard1 {
-  border: 5px solid pink;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -ms-flex-pack: distribute;
-  justify-content: space-around;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background-color: #434343;
-  color: #FFFFFF; }
-  .contentcard1 .makeGreen {
-    color: #00D646; }
-  .contentcard1 .cc1b1, .contentcard1 .cc1b2 {
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgba(0, 255, 0, 0.1); }
+  * .App {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
-    flex-direction: column;
-    width: 50%;
-    -webkit-box-align: left;
-    -ms-flex-align: left;
-    align-items: left; }
-  .contentcard1 .cc1b1 {
-    margin-top: 1em;
-    border: 5px solid purple;
-    font-size: 4em;
-    font-family: "Lulo_Clean_One_Bold", wingdings;
-    font-weight: bolder; }
-    .contentcard1 .cc1b1 .cc1innerb1 {
-      border: 5px solid red; }
-    .contentcard1 .cc1b1 .cc1innerb2 {
-      border: 5px solid yellow; }
-  .contentcard1 .cc1b2 {
-    margin-top: 3em;
-    border: 5px solid cyan;
-    font-size: 1.5em;
-    font-family: "Avenir_Heavy_Oblique", wingdings; }
-    .contentcard1 .cc1b2 .cc1innerb3 {
-      border: 5px solid blue; }
-    .contentcard1 .cc1b2 .cc1innerb4 {
-      border: 5px solid red; }
+    flex-direction: column; }
+    * .App .heading1 {
+      border: 5px solid coral;
+      font-size: 0.7em;
+      background-color: #434343;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+      * .App .heading1 .h1box {
+        font-family: "Avenir_Light", windings;
+        color: #939DAB;
+        text-align: center;
+        line-height: 50px;
+        padding: 0 10px; }
+        * .App .heading1 .h1box:hover {
+          color: #bec7d5; }
+      * .App .heading1 .h1b1 {
+        margin-left: 15em;
+        font-size: 1.6em;
+        border: 5px solid red;
+        width: 3.4em; }
+        * .App .heading1 .h1b1 .h1innerb1 {
+          border: 5px solid coral;
+          text-align: center;
+          color: #00D646; }
+          * .App .heading1 .h1b1 .h1innerb1:hover {
+            color: #00d646; }
+      * .App .heading1 .h1b2 {
+        margin-left: 10em;
+        border: 5px solid cyan;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex; }
+        * .App .heading1 .h1b2 .h1innerb2 {
+          color: #00D646;
+          border: 5px solid green; }
+          * .App .heading1 .h1b2 .h1innerb2:hover {
+            color: #00d646; }
+        * .App .heading1 .h1b2 .h1innerb3 {
+          border: 5px solid purple; }
+        * .App .heading1 .h1b2 .h1innerb4 {
+          border: 5px solid green; }
+    * .App .contentcard1 {
+      border: 5px solid pink;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -ms-flex-pack: distribute;
+      justify-content: space-around;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      background-color: #434343;
+      color: #FFFFFF;
+      padding: 5em 0; }
+      * .App .contentcard1 .makeGreen {
+        color: #00D646; }
+      * .App .contentcard1 .cc1b1, * .App .contentcard1 .cc1b2 {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        width: 50%;
+        -webkit-box-align: left;
+        -ms-flex-align: left;
+        align-items: left; }
+      * .App .contentcard1 .cc1b1 {
+        margin-top: 1em;
+        border: 5px solid purple;
+        font-size: 4em;
+        font-family: "Lulo_Clean_One_Bold", wingdings;
+        font-weight: bolder; }
+        * .App .contentcard1 .cc1b1 .cc1innerb1 {
+          border: 5px solid red; }
+        * .App .contentcard1 .cc1b1 .cc1innerb2 {
+          border: 5px solid yellow; }
+      * .App .contentcard1 .cc1b2 {
+        margin-top: 3em;
+        border: 5px solid cyan;
+        font-size: 1.5em;
+        font-family: "Avenir_Light", windings; }
+        * .App .contentcard1 .cc1b2 .cc1innerb3 {
+          border: 5px solid blue; }
+        * .App .contentcard1 .cc1b2 .cc1innerb4 {
+          border: 5px solid red; }
+    * .App .contentcard2 {
+      border: 5px solid purple;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      background-color: #262C3E;
+      color: #FFFFFF;
+      font-family: "Avenir_Light", windings;
+      padding: 5em 0;
+      margin: 0 10em; }
+      * .App .contentcard2 .cc2b1, * .App .contentcard2 .cc2b2, * .App .contentcard2 .cc2b3 {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        width: 50%;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        padding-bottom: 2em;
+        margin-top: 2em; }
+      * .App .contentcard2 .cc2b1 {
+        border: 5px solid cyan; }
+      * .App .contentcard2 .cc2b2 {
+        border: 5px solid coral;
+        font-weight: bold; }
+        * .App .contentcard2 .cc2b2 .cc2innerb1 {
+          font-size: 1.5em;
+          border: 5px solid purple; }
+        * .App .contentcard2 .cc2b2 .cc2innerb2 {
+          line-height: 2em;
+          text-align: center;
+          border: 5px solid red; }
+      * .App .contentcard2 .cc2b3 {
+        border: 5px solid blue; }
+        * .App .contentcard2 .cc2b3 .cc2innerb3 {
+          border: 2px solid #00D646;
+          padding: 0.8em 1.7em; }
+          * .App .contentcard2 .cc2b3 .cc2innerb3:hover {
+            background-color: #00d646; }

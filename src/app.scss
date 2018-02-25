@@ -137,10 +137,10 @@ $cc1font2 : 1.5em;
                 font-size: $cc1font1;
                 font-family: $textfont2;
                 font-weight: bolder;
-                .cc1innerb1{
+                .cc1lvl1b1{
                     border : 5px solid $border1;
                 }
-                .cc1innerb2{
+                .cc1lvl1b2{
                     border : 5px solid $border8;
                 }
             }
@@ -149,10 +149,10 @@ $cc1font2 : 1.5em;
                 border : 5px solid $border2;
                 font-size: $cc1font2;
                 font-family: $textfont3;
-                .cc1innerb3{
+                .cc1lvl1b3{
                     border : 5px solid $border5;
                 }
-                .cc1innerb4{
+                .cc1lvl1b4{
                     border : 5px solid $border1;
                 }
             }
@@ -192,11 +192,11 @@ $cc1font2 : 1.5em;
                 border : 5px solid $border7;
                 font-weight: bold;
 
-                .cc2innerb1{
+                .cc2lvl1b1{
                     font-size: 1.5em;
                     border : 5px solid $border4;
                 }
-                .cc2innerb2{
+                .cc2lvl1b2{
                     line-height: 2em;
                     text-align: center;
                     border : 5px solid $border1;
@@ -205,7 +205,7 @@ $cc1font2 : 1.5em;
             .cc2b3{
                 
                 border : 5px solid $border5;
-                .cc2innerb3{
+                .cc2lvl1b3{
                     border : 2px solid $green;
                     padding : 0.8em 1.7em;
                     //needs a transition, look in TTT for help
@@ -231,15 +231,15 @@ $cc1font2 : 1.5em;
                 border : 5px solid $border3;
                 display: flex;
                 margin-bottom: 2em;
-                .cc4innerb1, .cc4innerb2{
+                .cc4lvl1b1, .cc4innerb2{
                     padding: 0 0.2em;
                 }
 
-                .cc4innerb1{
+                .cc4lvl1b1{
                     color : $text-active;
                     border : 5px solid $border8;
                 }
-                .cc4innerb2{
+                .cc4lvl1b2{
                     border : 5px solid $border2;
                 }
             }
@@ -247,20 +247,20 @@ $cc1font2 : 1.5em;
                 border : 5px solid $border5;
                 display: flex;
                 
-                .cc4innerb3,  .cc4innerb4 , .cc4innerb5{
+                .cc4lvl1b3,  .cc4lvl1b4 , .cc4lvl1b5{
                     padding : 7em 7em 7em 7em;
                     color: white;
 
                 }
-                .cc4innerb3{
+                .cc4lvl1b3{
                     border : 5px solid $border1;
                     background-color: $cc4inner1;
                 }
-                .cc4innerb4{
+                .cc4lvl1b4{
                     border : 5px solid $border4;
                     background-color: $cc4inner2;
                 }
-                .cc4innerb5{
+                .cc4lvl1b5{
                     border : 5px solid $border3;
                     background-color: $cc4inner1;
                 }

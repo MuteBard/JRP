@@ -7,6 +7,10 @@ $border5 : blue;
 $border6 : pink;
 $border7 : coral;
 $border8 : yellow;
+$border9 : magenta;
+$border10 : yellowgreen;
+$border11 : indigo;
+$border12 : orangered;
 
 //colors
 $green : #00D646;
@@ -15,6 +19,7 @@ $text-active : #BEC7D5;
 $demo : #434343;
 $cc2back : #262C3E;
 $cc4back : #8000ff;
+$cc5back : #0377f6;
 $white: #FFFFFF;
 $blue: rgba(1, 177, 175, 1);
 $cc4inner1 : #16181F;
@@ -259,7 +264,112 @@ $cc1font2 : 1.5em;
                     border : 5px solid $border3;
                     background-color: $cc4inner1;
                 }
+            }
+        }
 
+        .contentcard5{
+            border: 5px solid $border11;
+            display: flex;
+            flex-direction: column;
+            background-color: $cc5back; 
+            padding: 10em 0;
+
+            .cc5lvl1b1{
+                border : 5px solid $border3;
+                margin-bottom: 1.5em;
+                font-family: $textfont2;
+                font-size: 2.8em;
+                color : $white; 
+                display: flex;
+                justify-content: center;
+                     
+                .cc5lvl2b1{
+                    border : 5px solid $border8;
+                    padding: 0 0.2em;
+                    color : $text-active;
+                }
+                .cc5lvl2b2{
+                    border : 5px solid $border2;
+                    padding: 0 0.2em; 
+                }
+            }
+
+            .cc5lvl1b2{
+                border: 5px solid $border4;
+                font-family: $textfont3;
+                display: flex;
+                flex-direction: column-reverse;
+               
+                .cc5lvl2b3{
+                    border: 5px solid $border2;
+                    display: flex;
+                    justify-content: flex-start;
+                    
+                    .cc5lvl3b1{
+                        border: 5px solid $border8;
+                        display: flex;
+                        flex-direction: column;
+                        width : 20%;
+                        color :white;
+                        text-align: right;
+                        margin-left : 21em;
+                        
+                        .cc5lvl4b1{
+                            border: 5px solid $border1;
+                            color : $green;
+                            font-family: $textfont2;
+                            font-size: 1em;
+                        }
+
+                        .cc5lvl4b2{
+                            border: 5px solid $border3;
+                            font-weight: bold;
+                            font-size: 1.4em;    
+                        }
+
+                        .cc5lvl4b3{
+                            border: 5px solid $border5;
+                            font-weight: bold;
+                        }
+                    }
+                }
+                .cc5lvl2b4{
+                    border: 5px solid $border6;
+                    display: flex;
+                    justify-content: flex-end;
+
+                    .cc5lvl3b2{
+                        border: 5px solid $border8;
+                        display: flex;
+                        flex-direction: column;
+                        width : 20%;
+                        color :white;
+                        text-align: left;
+                        margin-right : 21em;
+                    
+                        .cc5lvl4b4{
+                            border: 5px solid $border1;
+                            color : $green;
+                            font-family: $textfont2;
+                            font-size: 1em;
+                        }
+                        .cc5lvl4b5{
+                            border: 5px solid $border3;
+                            font-weight: bold;
+                            font-size: 1.4em;  
+                        }
+
+                        .cc5lvl4b6{
+                            border: 5px solid $border2;
+                            font-weight: bold;
+                        }
+
+                        .cc5lvl4b7{
+                            border: 5px solid $border9;
+                            font-weight: bold;
+                        }
+                    }
+                }
             }
         }
     }

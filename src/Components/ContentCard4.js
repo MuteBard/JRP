@@ -5,6 +5,7 @@ class ContentCard4 extends Component {
     render() {
         return (
             <div className="contentcard4">
+
                 <div className="cc4box cc4b1">
                     <div className="cc4innerb1">02</div>
                     <div className="cc4innerb2">PORTFOLIO</div>
@@ -14,7 +15,7 @@ class ContentCard4 extends Component {
                     <div className="cc4innerb4">[IMAGE B]</div>
                     <div className="cc4innerb5">[IMAGE C]</div>
                 </div>
-
+                {/* <div className="dot">.</div> */}
             </div>
         );
     }

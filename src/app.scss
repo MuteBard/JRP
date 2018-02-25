@@ -14,8 +14,11 @@ $text-inactive : #939DAB;
 $text-active : #BEC7D5;
 $demo : #434343;
 $cc2back : #262C3E;
+$cc4back : #8000ff;
 $white: #FFFFFF;
 $blue: rgba(1, 177, 175, 1);
+$cc4inner1 : #16181F;
+$cc4inner2 : #181A1F;
 
 //fonts
 $textfont1 : 'Avenir_Heavy_Oblique', wingdings;
@@ -209,7 +212,55 @@ $cc1font2 : 1.5em;
         } 
         
         .contentcard4{
+            border : 5px solid $border1;
+            display: flex;
+            flex-direction: column;
+            background-color: $cc4back; 
+            align-items: center;
+            padding: 10em 0;
+            
+            .cc4b1{
+                font-family: $textfont2;
+                font-size: 2.8em;
+                color : $white; 
+                border : 5px solid $border3;
+                display: flex;
+                margin-bottom: 2em;
+                .cc4innerb1, .cc4innerb2{
+                    padding: 0 0.2em;
+                }
 
+                .cc4innerb1{
+                    color : $text-active;
+                    border : 5px solid $border8;
+                }
+                .cc4innerb2{
+                    border : 5px solid $border2;
+                }
+            }
+            .cc4b2{
+                border : 5px solid $border5;
+                display: flex;
+                
+                .cc4innerb3,  .cc4innerb4 , .cc4innerb5{
+                    padding : 7em 7em 7em 7em;
+                    color: white;
+
+                }
+                .cc4innerb3{
+                    border : 5px solid $border1;
+                    background-color: $cc4inner1;
+                }
+                .cc4innerb4{
+                    border : 5px solid $border4;
+                    background-color: $cc4inner2;
+                }
+                .cc4innerb5{
+                    border : 5px solid $border3;
+                    background-color: $cc4inner1;
+                }
+
+            }
         }
     }
 }

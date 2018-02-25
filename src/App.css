@@ -165,3 +165,50 @@
           padding: 0.8em 1.7em; }
           * .App .contentcard2 .cc2b3 .cc2innerb3:hover {
             background-color: #00d646; }
+    * .App .contentcard4 {
+      border: 5px solid red;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      background-color: #8000ff;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      padding: 10em 0; }
+      * .App .contentcard4 .cc4b1 {
+        font-family: "Lulo_Clean_One_Bold", wingdings;
+        font-size: 2.8em;
+        color: #FFFFFF;
+        border: 5px solid green;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        margin-bottom: 2em; }
+        * .App .contentcard4 .cc4b1 .cc4innerb1, * .App .contentcard4 .cc4b1 .cc4innerb2 {
+          padding: 0 0.2em; }
+        * .App .contentcard4 .cc4b1 .cc4innerb1 {
+          color: #BEC7D5;
+          border: 5px solid yellow; }
+        * .App .contentcard4 .cc4b1 .cc4innerb2 {
+          border: 5px solid cyan; }
+      * .App .contentcard4 .cc4b2 {
+        border: 5px solid blue;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex; }
+        * .App .contentcard4 .cc4b2 .cc4innerb3, * .App .contentcard4 .cc4b2 .cc4innerb4, * .App .contentcard4 .cc4b2 .cc4innerb5 {
+          padding: 7em 7em 7em 7em;
+          color: white; }
+        * .App .contentcard4 .cc4b2 .cc4innerb3 {
+          border: 5px solid red;
+          background-color: #16181F; }
+        * .App .contentcard4 .cc4b2 .cc4innerb4 {
+          border: 5px solid purple;
+          background-color: #181A1F; }
+        * .App .contentcard4 .cc4b2 .cc4innerb5 {
+          border: 5px solid green;
+          background-color: #16181F; }

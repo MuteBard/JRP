@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import './app.scss';
+import LargeCard from './Components/LargeCard';
 import Heading from './Components/Header1';
 import ContentCard1 from './Components/ContentCard1';
 import ContentCard2 from './Components/ContentCard2';
@@ -13,13 +14,19 @@ class App extends Component {
     render() {
         return (
             <div className="App">
-                <Heading/>
-                <ContentCard1/>
-                <ContentCard2/>
-                <ContentCard3/>
-                <ContentCard4/>
-                <ContentCard5/>
-                <ContentCard6/>
+                <div className ="card1">
+                    <Heading/>
+                    <ContentCard1/>
+                </div>
+                <div className ="card2">
+                    <ContentCard2/>
+                    <ContentCard3/>
+                </div>
+                <div className ="card3">    
+                    <ContentCard4/>
+                    <ContentCard5/>
+                    <ContentCard6/>
+                </div>
             </div>
         );
     }

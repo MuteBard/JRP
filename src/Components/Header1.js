@@ -6,7 +6,9 @@ class Heading1 extends Component {
         return (
             <div className="heading1">
                 <div className="h1box h1b1">
-                   <div className ="h1innerb1"> R </div>
+                    <div className ="h1innerb1"> 
+                        <img src={`http://res.cloudinary.com/dtvznpuay/image/upload/v1519609957/Logo_xi46yv.png`} height="45px"/>
+                    </div>
                 </div>
                 <div className="h1box h1b2">
                     <div className="h1box h1innerb2">HOME</div>

@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import '../app.scss';
+import axios from 'axios';
+
 
 //https://reactjs.org/docs/forms.html
 //https://alligator.io/react/new-way-to-handle-events/
@@ -18,8 +20,19 @@ class ContentCard6 extends Component {
         this.setState({[item]: event.target.value}) 
     }
 
-    saveEdit(event){
+    saveEdit(state){
+        console.log("test",state.name)
+        let mail = {
+            name : state.name,
+            email : state.email,
+            subject : state.subject,
+            message : state.message
+        }
 
+        axios.post('/saveEdit', mail)
+            .then(function(response){
+                console.log('saved successfully')
+            });  
     }
 
     render() {
@@ -48,7 +61,7 @@ class ContentCard6 extends Component {
                             <div className="cc6lvl4b7">
                                 <textarea className="searchb3" placeholder="Message*" cols="40" rows="5" onChange = {this.edit('message')} value = {this.state.message}/>
                             </div>
-                            <button className="cc6lvl4b8" type="button" onClick={this.saveEdit}>Send</button>
+                            <button className="cc6lvl4b8" type="button" onClick={this.saveEdit(this.state)}>Send</button>
                         </div>
                     </div>
                     <div className="cc6lvl2b2">

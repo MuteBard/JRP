@@ -21,7 +21,6 @@ class ContentCard4 extends Component {
                         <img src={`../../images/proj1.png`} height="350px"/>
                     </div>
                 </div>
-                {/* <div className="dot">.</div> */}
             </div>
         );
     }

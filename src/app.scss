@@ -58,12 +58,16 @@ $cc1font2 : 1.5em;
     .App{
         display : flex;
         flex-direction: column;
-        
-        .card1{
-            background-image : url("http://res.cloudinary.com/dtvznpuay/image/upload/v1519609969/bg4_ykd1ym.jpg");
-            background-size: cover;
+        .card1, .card2, .card3, .card4{
+            background-position: center; 
             background-repeat: no-repeat;
             background-attachment: fixed;
+        }
+        
+        .card1{
+            background-image : url("http://res.cloudinary.com/dtvznpuay/image/upload/v1519609942/bg5_kugdk1.webp");
+            background-size: 100em;
+
             .heading1{
                 // border : 5px solid $border7;
                 font-size: $h1textsize;
@@ -172,9 +176,7 @@ $cc1font2 : 1.5em;
         }
         .card2{
             background-image : url("http://res.cloudinary.com/dtvznpuay/image/upload/v1519609969/bg4_ykd1ym.jpg");
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
+            background-size: 100em;
             display : flex;
             flex-direction: column;
             
@@ -182,6 +184,7 @@ $cc1font2 : 1.5em;
                 // border : 5px solid $border9;
                 display: flex;
                 justify-content: center;
+                margin-top : 10em;
 
 
 
@@ -418,13 +421,8 @@ $cc1font2 : 1.5em;
         }
         .card3{
             background-image : url("http://res.cloudinary.com/dtvznpuay/image/upload/v1519609961/bg3_hojgf5.jpg");
-            background-size: cover;
-            background-position: center; 
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            -webkit-transform: translateZ(-999px) scale(1.1);
-            transform: translateZ(-999px) scale(1.1);
-            z-index: 1;
+            background-size: 200em;
+            border-bottom: 5em solid $cc2back;
         
             .contentcard4{
                 // border : 5px solid $border1;
@@ -433,6 +431,7 @@ $cc1font2 : 1.5em;
                 // background-color: $cc4back; 
                 align-items: center;
                 padding: 10em 0;
+                margin-top : 5em;
                 
                 .cc4b1{
                     font-family: $textfont2;
@@ -586,6 +585,8 @@ $cc1font2 : 1.5em;
             }
 
             .contentcard6{
+                margin-bottom : 15em;
+                
                 .cc6lvl1b1{
                     // border : 5px solid $border1;
                     background-color: $cc6back;
@@ -705,6 +706,16 @@ $cc1font2 : 1.5em;
                             
                         }
                     }
+                }
+                .cc6lvl1b2{
+                    // border : 5px solid $border9;
+                    display : flex;
+                    justify-content: center;
+                    margin: 15em 0;
+
+                    // .cc6lvl2b3{
+                    //     border : 5px solid $border1;
+                    // }
                 }
             }
         }

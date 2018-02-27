@@ -8,7 +8,7 @@ class ContentCard2 extends Component {
                 <div className="cc2lvl1b1">
                     <div className="cc2lvl2b1">
                         <div className="cc2lvl3b1">
-                            <img src={`http://res.cloudinary.com/dtvznpuay/image/upload/v1519609957/Logo_xi46yv.png`} height="80px"/>
+                            <img src={`http://res.cloudinary.com/dtvznpuay/image/upload/v1519609957/Logo_xi46yv.png`} height="100px"/>
                         </div>
                     </div>
                     <div className="cc2lvl2b2">

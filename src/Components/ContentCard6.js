@@ -37,6 +37,9 @@ class ContentCard6 extends Component {
                         </div>        
                     </div>
                 </div>
+                <div className = "cc6lvl1b2">
+                    <img className = "cc6lvl2b3"src={`http://res.cloudinary.com/dtvznpuay/image/upload/v1519609957/Logo_xi46yv.png`} height="60px"/>
+                </div>
             </div>
         );
     }

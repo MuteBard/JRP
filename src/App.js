@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import './app.scss';
-import LargeCard from './Components/LargeCard';
 import Heading from './Components/Header1';
 import ContentCard1 from './Components/ContentCard1';
 import ContentCard2 from './Components/ContentCard2';

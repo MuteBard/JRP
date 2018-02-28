@@ -3,11 +3,15 @@ import '../app.scss';
 
 class ProjectPage2 extends Component {
     render() {
+        let img1 = 'http://res.cloudinary.com/dtvznpuay/image/upload/v1519794026/93dec0_f4c3ab7f3d994f6db18e23325bd46dd7_mv2_w4egjd.png'
+        let img2 = 'http://res.cloudinary.com/dtvznpuay/image/upload/a_270/v1519794026/93dec0_e37b95260f18409f9694334f2a33842f_mv2_d_4032_3024_s_4_2_qwx1ft.webp'
+        let img3 = 'http://res.cloudinary.com/dtvznpuay/image/upload/v1519794025/93dec0_63e5cb09486e49248bf49d115b20f376_mv2_uuvpxl.png'
+
         return (
             <div className="ProjectPage2">
                 <div className="pp2lvl1b1">
                     <div className="pp2lvl2b1">
-                        <div className="pp2lvl3b1"></div>
+                        <div className="pp2lvl3b1"><img src={img1} height="120px"/></div>
                         <div className="pp2lvl3b2">Wrecktech</div>            
                     </div>
                     <div className="pp1lvl2b2">
@@ -32,14 +36,14 @@ class ProjectPage2 extends Component {
                         <div className="pp1lvl3b8">Wireframes</div>
                         <div className="pp1lvl3b9">This was the second wireframe iteration after the 7th hour.</div>
                         <div className="pp1lvl3b10">
-                            <div className="pp1lvl3b10"></div>
+                            <div className="pp1lvl3b10"><img src={img2} height="120px"/></div>
                         </div>
                     </div>
                     <div className="pp2lvl2b5">
                         <div className="pp1lvl3b10">Heuristics</div>
                         <div className="pp1lvl3b11">This was the evaluation of UI flow and its consistency. "How do we stack up?", "Where can we improve?". We keep this evaluation as a checklist on a trello board.</div>
                         <div className="pp1lvl3b10">
-                            <div className="pp1lvl3b10"></div>
+                            <div className="pp1lvl3b10"><img src={img3} height="120px"/></div>
                         </div>
                     </div>
 

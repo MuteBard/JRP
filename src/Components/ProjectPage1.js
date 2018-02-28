@@ -3,16 +3,27 @@ import '../app.scss';
 
 class ProjectPage1 extends Component {
     render() {
+        let phoneimg1 = 'http://res.cloudinary.com/dtvznpuay/image/upload/v1519794024/93dec0_14a820510d994ac19172a8a423117747_mv2_p5qggn.png'
+        let phoneimg2 = 'http://res.cloudinary.com/dtvznpuay/image/upload/v1519794024/93dec0_3e0381c1ebf64feb8dea681e98e75894_mv2_fdnhqj.png'
+        let phoneimg3 = 'http://res.cloudinary.com/dtvznpuay/image/upload/v1519794025/93dec0_a1b17f60a23448dab7ff3ad46c954548_mv2_runvuf.png'
+        let phoneimg4 = 'http://res.cloudinary.com/dtvznpuay/image/upload/v1519794024/93dec0_6d08d9d8d9ae4217a12af01d1d7cc418_mv2_x6fnxx.png'
+        let phoneimg5 = 'http://res.cloudinary.com/dtvznpuay/image/upload/v1519794024/93dec0_6d08d9d8d9ae4217a12af01d1d7cc418_mv2_x6fnxx.png'
+        let img1 = 'http://res.cloudinary.com/dtvznpuay/image/upload/v1519794026/93dec0_b62910150f05413fb7c6e242127affec_mv2_uzvdwi.png'
+        let img2 = 'http://res.cloudinary.com/dtvznpuay/image/upload/v1519794025/93dec0_301b01bd3f9d436990311a01fb31b331_mv2_towbyx.png'
+        let img3 = 'http://res.cloudinary.com/dtvznpuay/image/upload/v1519794024/93dec0_9f788796a9884af5838bb987c99ef77e_mv2_d_4038_1798_s_2_kdnlyc.png'
+        let img4 = 'http://res.cloudinary.com/dtvznpuay/image/upload/v1519794025/93dec0_ddb24606efd048fab4027d5015cf615e_mv2_d_2448_3264_s_4_2_unqvga.webp'
+        let img5 = 'http://res.cloudinary.com/dtvznpuay/image/upload/v1519794025/93dec0_888e1b91fbd64e84997c9e08250e3502_mv2_d_3024_4032_s_4_2_sr8gpf.webp'
+
         return (
             <div className="ProjectPage1">
                 <div className="pp1lvl1b1">
-                    <div className="pp1lvl2b1">GOOD sAMARITAN</div>
+                    <div className="pp1lvl2b1">GOOD SAMARITAN</div>
                     <div className="pp1lvl2b2">
-                        <div className="pp1lvl3b1"></div>
-                        <div className="pp1lvl3b2"></div>
-                        <div className="pp1lvl3b3"></div>
-                        <div className="pp1lvl3b4"></div>
-                        <div className="pp1lvl3b6"></div>
+                        <div className="pp1lvl3b1"><img src={phoneimg1} height="120px"/></div>
+                        <div className="pp1lvl3b2"><img src={phoneimg2} height="120px"/></div>
+                        <div className="pp1lvl3b3"><img src={phoneimg3} height="120px"/></div>
+                        <div className="pp1lvl3b4"><img src={phoneimg4} height="120px"/></div>
+                        <div className="pp1lvl3b6"><img src={phoneimg5} height="120px"/></div>
                     </div>
                     <div className="pp1lvl2b3">
                         <div className="pp1lvl3b7">
@@ -39,21 +50,21 @@ class ProjectPage1 extends Component {
                             <div className="pp1lvl4b9">Competitive Analysis</div>
                             <div className="pp1lvl4b10">While doing Market Research, I focused on strengths and weaknesses of each application and their market penetration. My source of strengths were from first-hand experience and my source of weaknesses were from first-hand experiences and app store reviews.</div>
                             <div className="pp1lvl4b11">
-                                <div className="pp1lvl5b1"></div> 
+                                <div className="pp1lvl5b1"><img src={img1} height="120px"/></div> 
                             </div>                        
                         </div>
                         <div className="pp1lvl3b13">
                             <div className="pp1lvl4b12">User Personas</div>
                             <div className="pp1lvl4b13">While creating the user flow, I had to completely stop and backtrack out of the mindset of being the user. Focusing the attention of the target audience, I conducted interviews around the local college and high school. From the trends of answers given I created Kaas and Shane; two outliers inside the target audience.</div>
                             <div className="pp1lvl4b14">
-                                <div className="pp1lvl5b2"></div>
+                                <div className="pp1lvl5b2"><img src={img2} height="120px"/></div>
                             </div>                        
                         </div>
                         <div className="pp1lvl3b14">
                             <div className="pp1lvl4b15">User Flow</div>
                             <div className="pp1lvl4b16">The original stakeholder interview and user testing session helped with the User Flow of Good Samaritan. 87% of users committed to looking for lost items while the other 13% committed to posting first</div>
                             <div className="pp1lvl4b17">
-                                <div className="pp1lvl5b3"></div>
+                                <div className="pp1lvl5b3"><img src={img3} height="120px"/></div>
                             </div>                        
                         </div>
                         <div className="pp1lvl3b15">
@@ -61,10 +72,10 @@ class ProjectPage1 extends Component {
                             <div className="pp1lvl4b19">Some lo-fidelity wireframes for a few of the major screens before proceeding to mid-fidelity</div>
                             <div className="pp1lvl4b20">
                                 <div className="pp1lvl5b4">
-                                    <div className="pp1lvl6b1"></div>
+                                    <div className="pp1lvl6b1"><img src={img4} height="120px"/></div>
                                 </div>
                                 <div className="pp1lvl5b5">
-                                    <div className="pp1lvl6b2"></div>
+                                    <div className="pp1lvl6b2"><img src={img5} height="120px"/></div>
                                 </div>
                             </div>                        
                         </div>

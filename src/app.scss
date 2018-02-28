@@ -26,6 +26,7 @@ $white: #FFFFFF;
 $blue: rgba(1, 177, 175, 1);
 $cc4inner1 : #16181F;
 $cc4inner2 : #181A1F;
+$ppcolor : #3c4662;
 
 //fonts
 $textfont1 : 'Avenir_Heavy_Oblique', wingdings;
@@ -60,7 +61,7 @@ $cc1font2 : 1.5em;
         display : flex;
         flex-direction: column;
 
-        .Homepage{
+        .HomePage{
 
             .card1, .card2, .card3{
                 background-position: center; 
@@ -733,6 +734,31 @@ $cc1font2 : 1.5em;
                         // }
                     }
                 }
+            }
+        }
+
+        .ProjectPage1{
+            .pp1lvl1b1{
+                display : flex;
+                flex-direction: column;
+                border : 5px solid $border1;
+                background-color: $ppcolor;
+                color: white;
+                .pp1lvl2b1{
+                    border : 5px solid $border2;
+                    font-family: $textfont2;
+
+                }
+            }
+        }
+        .ProjectPage2{
+            .pp2lvl1b1{
+                border : 5px solid $border4;
+            }
+        }
+        .ProjectPage3{
+            .pp3lvl1b1{
+                border : 5px solid $border7;
             }
         }
     }

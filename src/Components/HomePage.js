@@ -11,7 +11,7 @@ import ContentCard6 from './ContentCard6';
 class HomePage extends Component {
     render() {
         return (
-            <div className="Homepage">
+            <div className="HomePage">
                 <div className ="card1">
                     <Heading/>
                     <ContentCard1/>

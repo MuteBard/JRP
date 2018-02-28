@@ -23,48 +23,48 @@
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column; }
-    * .App .Homepage .card1, * .App .Homepage .card2, * .App .Homepage .card3 {
+    * .App .HomePage .card1, * .App .HomePage .card2, * .App .HomePage .card3 {
       background-position: center;
       background-repeat: no-repeat;
       background-attachment: fixed; }
-    * .App .Homepage .card1 {
+    * .App .HomePage .card1 {
       background-image: url("http://res.cloudinary.com/dtvznpuay/image/upload/v1519609942/bg5_kugdk1.webp");
       background-size: 100em;
       background-position: right; }
-      * .App .Homepage .card1 .heading1 {
+      * .App .HomePage .card1 .heading1 {
         font-size: 0.7em;
         padding-top: 3em;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex; }
-        * .App .Homepage .card1 .heading1 .h1box {
+        * .App .HomePage .card1 .heading1 .h1box {
           font-family: "Avenir_Light", windings;
           color: #939DAB;
           text-align: center;
           line-height: 50px;
           padding: 0 8px; }
-          * .App .Homepage .card1 .heading1 .h1box:hover {
+          * .App .HomePage .card1 .heading1 .h1box:hover {
             color: #bec7d5; }
-        * .App .Homepage .card1 .heading1 .h1b1 {
+        * .App .HomePage .card1 .heading1 .h1b1 {
           margin-left: 15em;
           font-size: 1.6em;
           width: 3.4em; }
-          * .App .Homepage .card1 .heading1 .h1b1 .h1innerb1 {
+          * .App .HomePage .card1 .heading1 .h1b1 .h1innerb1 {
             text-align: center;
             color: #00D646; }
-            * .App .Homepage .card1 .heading1 .h1b1 .h1innerb1:hover {
+            * .App .HomePage .card1 .heading1 .h1b1 .h1innerb1:hover {
               color: #00d646; }
-        * .App .Homepage .card1 .heading1 .h1b2 {
+        * .App .HomePage .card1 .heading1 .h1b2 {
           margin-left: 10em;
           display: -webkit-box;
           display: -ms-flexbox;
           display: flex;
           font-size: 1.2em; }
-          * .App .Homepage .card1 .heading1 .h1b2 .h1innerb2 {
+          * .App .HomePage .card1 .heading1 .h1b2 .h1innerb2 {
             color: #00D646; }
-            * .App .Homepage .card1 .heading1 .h1b2 .h1innerb2:hover {
+            * .App .HomePage .card1 .heading1 .h1b2 .h1innerb2:hover {
               color: #00d646; }
-      * .App .Homepage .card1 .contentcard1 {
+      * .App .HomePage .card1 .contentcard1 {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -79,9 +79,9 @@
         align-items: center;
         color: #FFFFFF;
         padding: 12em 0; }
-        * .App .Homepage .card1 .contentcard1 .makeGreen {
+        * .App .HomePage .card1 .contentcard1 .makeGreen {
           color: #00D646; }
-        * .App .Homepage .card1 .contentcard1 .cc1b1, * .App .Homepage .card1 .contentcard1 .cc1b2 {
+        * .App .HomePage .card1 .contentcard1 .cc1b1, * .App .HomePage .card1 .contentcard1 .cc1b2 {
           display: -webkit-box;
           display: -ms-flexbox;
           display: flex;
@@ -93,16 +93,16 @@
           -webkit-box-align: left;
           -ms-flex-align: left;
           align-items: left; }
-        * .App .Homepage .card1 .contentcard1 .cc1b1 {
+        * .App .HomePage .card1 .contentcard1 .cc1b1 {
           margin-top: 1em;
           font-size: 4em;
           font-family: "Lulo_Clean_One_Bold", wingdings;
           font-weight: bolder; }
-        * .App .Homepage .card1 .contentcard1 .cc1b2 {
+        * .App .HomePage .card1 .contentcard1 .cc1b2 {
           margin-top: 3em;
           font-size: 1.5em;
           font-family: "Avenir_Light", windings; }
-    * .App .Homepage .card2 {
+    * .App .HomePage .card2 {
       background-image: url("http://res.cloudinary.com/dtvznpuay/image/upload/v1519609969/bg4_ykd1ym.jpg");
       background-size: 100em;
       display: -webkit-box;
@@ -112,7 +112,7 @@
       -webkit-box-direction: normal;
       -ms-flex-direction: column;
       flex-direction: column; }
-      * .App .Homepage .card2 .contentcard2 {
+      * .App .HomePage .card2 .contentcard2 {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -120,7 +120,7 @@
         -ms-flex-pack: center;
         justify-content: center;
         margin-top: 10em; }
-        * .App .Homepage .card2 .contentcard2 .cc2lvl1b1 {
+        * .App .HomePage .card2 .contentcard2 .cc2lvl1b1 {
           display: -webkit-box;
           display: -ms-flexbox;
           display: flex;
@@ -139,7 +139,7 @@
           -ms-flex-pack: center;
           justify-content: center;
           width: 55%; }
-          * .App .Homepage .card2 .contentcard2 .cc2lvl1b1 .cc2lvl2b1, * .App .Homepage .card2 .contentcard2 .cc2lvl1b1 .cc2lvl2b2, * .App .Homepage .card2 .contentcard2 .cc2lvl1b1 .cc2lvl2b3 {
+          * .App .HomePage .card2 .contentcard2 .cc2lvl1b1 .cc2lvl2b1, * .App .HomePage .card2 .contentcard2 .cc2lvl1b1 .cc2lvl2b2, * .App .HomePage .card2 .contentcard2 .cc2lvl1b1 .cc2lvl2b3 {
             display: -webkit-box;
             display: -ms-flexbox;
             display: flex;
@@ -152,24 +152,24 @@
             -ms-flex-align: center;
             align-items: center;
             margin-top: 2em; }
-          * .App .Homepage .card2 .contentcard2 .cc2lvl1b1 .cc2lvl2b2 .cc2lvl3b2 {
+          * .App .HomePage .card2 .contentcard2 .cc2lvl1b1 .cc2lvl2b2 .cc2lvl3b2 {
             font-size: 1.6em;
             font-weight: bold;
             margin-bottom: 1em; }
-          * .App .Homepage .card2 .contentcard2 .cc2lvl1b1 .cc2lvl2b2 .cc2lvl3b3 {
+          * .App .HomePage .card2 .contentcard2 .cc2lvl1b1 .cc2lvl2b2 .cc2lvl3b3 {
             line-height: 2em;
             text-align: center; }
-          * .App .Homepage .card2 .contentcard2 .cc2lvl1b1 .cc2lvl2b3 {
+          * .App .HomePage .card2 .contentcard2 .cc2lvl1b1 .cc2lvl2b3 {
             margin-bottom: 2em; }
-            * .App .Homepage .card2 .contentcard2 .cc2lvl1b1 .cc2lvl2b3 .cc2lvl3b4 {
+            * .App .HomePage .card2 .contentcard2 .cc2lvl1b1 .cc2lvl2b3 .cc2lvl3b4 {
               border: 2px solid #00D646;
               padding: 0.8em 1.7em; }
-              * .App .Homepage .card2 .contentcard2 .cc2lvl1b1 .cc2lvl2b3 .cc2lvl3b4:hover {
+              * .App .HomePage .card2 .contentcard2 .cc2lvl1b1 .cc2lvl2b3 .cc2lvl3b4:hover {
                 background-color: #00d646; }
-              * .App .Homepage .card2 .contentcard2 .cc2lvl1b1 .cc2lvl2b3 .cc2lvl3b4:active {
+              * .App .HomePage .card2 .contentcard2 .cc2lvl1b1 .cc2lvl2b3 .cc2lvl3b4:active {
                 background-color: #003612;
                 border: 2px solid #003612; }
-      * .App .Homepage .card2 .contentcard3 {
+      * .App .HomePage .card2 .contentcard3 {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -177,7 +177,7 @@
         -ms-flex-pack: center;
         justify-content: center;
         margin-bottom: 10em; }
-        * .App .Homepage .card2 .contentcard3 .cc3lvl1b1 {
+        * .App .HomePage .card2 .contentcard3 .cc3lvl1b1 {
           display: -webkit-box;
           display: -ms-flexbox;
           display: flex;
@@ -194,25 +194,25 @@
           -ms-flex-pack: center;
           justify-content: center;
           width: 60%; }
-          * .App .Homepage .card2 .contentcard3 .cc3lvl1b1 .cc3lvl2b1 {
+          * .App .HomePage .card2 .contentcard3 .cc3lvl1b1 .cc3lvl2b1 {
             display: -webkit-box;
             display: -ms-flexbox;
             display: flex;
             -webkit-box-pack: center;
             -ms-flex-pack: center;
             justify-content: center; }
-            * .App .Homepage .card2 .contentcard3 .cc3lvl1b1 .cc3lvl2b1 .cc3lvl3b1 {
+            * .App .HomePage .card2 .contentcard3 .cc3lvl1b1 .cc3lvl2b1 .cc3lvl3b1 {
               padding: 0 0.2em;
               color: #262C3E; }
-            * .App .Homepage .card2 .contentcard3 .cc3lvl1b1 .cc3lvl2b1 .cc3lvl3b2 {
+            * .App .HomePage .card2 .contentcard3 .cc3lvl1b1 .cc3lvl2b1 .cc3lvl3b2 {
               padding: 0 0.2em; }
-          * .App .Homepage .card2 .contentcard3 .cc3lvl1b1 .cc3lvl2b2 {
+          * .App .HomePage .card2 .contentcard3 .cc3lvl1b1 .cc3lvl2b2 {
             text-align: center;
             font-family: "Avenir_Light", windings;
             font-weight: bold;
             font-size: 0.5em;
             margin-bottom: 1em; }
-          * .App .Homepage .card2 .contentcard3 .cc3lvl1b1 .cc3lvl2b3 {
+          * .App .HomePage .card2 .contentcard3 .cc3lvl1b1 .cc3lvl2b3 {
             font-family: "Avenir_Light", windings;
             font-size: 0.5em;
             display: -webkit-box;
@@ -224,7 +224,7 @@
             flex-direction: column;
             background-color: rgba(190, 199, 213, 0.4);
             padding: 1em 3em; }
-            * .App .Homepage .card2 .contentcard3 .cc3lvl1b1 .cc3lvl2b3 .cc3lvl3b3, * .App .Homepage .card2 .contentcard3 .cc3lvl1b1 .cc3lvl2b3 .cc3lvl3b4, * .App .Homepage .card2 .contentcard3 .cc3lvl1b1 .cc3lvl2b3 .cc3lvl3b5, * .App .Homepage .card2 .contentcard3 .cc3lvl1b1 .cc3lvl2b3 .cc3lvl3b6, * .App .Homepage .card2 .contentcard3 .cc3lvl1b1 .cc3lvl2b3 .cc3lvl3b7, * .App .Homepage .card2 .contentcard3 .cc3lvl1b1 .cc3lvl2b3 .cc3lvl3b8, * .App .Homepage .card2 .contentcard3 .cc3lvl1b1 .cc3lvl2b3 .cc3lvl3b9, * .App .Homepage .card2 .contentcard3 .cc3lvl1b1 .cc3lvl2b3 .cc3lvl3b10 {
+            * .App .HomePage .card2 .contentcard3 .cc3lvl1b1 .cc3lvl2b3 .cc3lvl3b3, * .App .HomePage .card2 .contentcard3 .cc3lvl1b1 .cc3lvl2b3 .cc3lvl3b4, * .App .HomePage .card2 .contentcard3 .cc3lvl1b1 .cc3lvl2b3 .cc3lvl3b5, * .App .HomePage .card2 .contentcard3 .cc3lvl1b1 .cc3lvl2b3 .cc3lvl3b6, * .App .HomePage .card2 .contentcard3 .cc3lvl1b1 .cc3lvl2b3 .cc3lvl3b7, * .App .HomePage .card2 .contentcard3 .cc3lvl1b1 .cc3lvl2b3 .cc3lvl3b8, * .App .HomePage .card2 .contentcard3 .cc3lvl1b1 .cc3lvl2b3 .cc3lvl3b9, * .App .HomePage .card2 .contentcard3 .cc3lvl1b1 .cc3lvl2b3 .cc3lvl3b10 {
               display: -webkit-box;
               display: -ms-flexbox;
               display: flex;
@@ -233,39 +233,39 @@
               -ms-flex-direction: row;
               flex-direction: row;
               color: black; }
-            * .App .Homepage .card2 .contentcard3 .cc3lvl1b1 .cc3lvl2b3 .cc3lvl3b3 .cc3lvl4b2 {
+            * .App .HomePage .card2 .contentcard3 .cc3lvl1b1 .cc3lvl2b3 .cc3lvl3b3 .cc3lvl4b2 {
               padding-top: 0.7em;
               padding-left: 1em; }
-            * .App .Homepage .card2 .contentcard3 .cc3lvl1b1 .cc3lvl2b3 .cc3lvl3b4 {
+            * .App .HomePage .card2 .contentcard3 .cc3lvl1b1 .cc3lvl2b3 .cc3lvl3b4 {
               padding: 0 0.2em; }
-              * .App .Homepage .card2 .contentcard3 .cc3lvl1b1 .cc3lvl2b3 .cc3lvl3b4 .cc3lvl4b4 {
+              * .App .HomePage .card2 .contentcard3 .cc3lvl1b1 .cc3lvl2b3 .cc3lvl3b4 .cc3lvl4b4 {
                 padding-top: 0.7em;
                 padding-left: 1em; }
-            * .App .Homepage .card2 .contentcard3 .cc3lvl1b1 .cc3lvl2b3 .cc3lvl3b5 {
+            * .App .HomePage .card2 .contentcard3 .cc3lvl1b1 .cc3lvl2b3 .cc3lvl3b5 {
               padding: 0 .5em; }
-              * .App .Homepage .card2 .contentcard3 .cc3lvl1b1 .cc3lvl2b3 .cc3lvl3b5 .cc3lvl4b6 {
+              * .App .HomePage .card2 .contentcard3 .cc3lvl1b1 .cc3lvl2b3 .cc3lvl3b5 .cc3lvl4b6 {
                 padding-top: 0.7em;
                 padding-left: 1em; }
-            * .App .Homepage .card2 .contentcard3 .cc3lvl1b1 .cc3lvl2b3 .cc3lvl3b6 .cc3lvl4b8 {
+            * .App .HomePage .card2 .contentcard3 .cc3lvl1b1 .cc3lvl2b3 .cc3lvl3b6 .cc3lvl4b8 {
               padding-top: 0.7em;
               padding-left: 1em; }
-            * .App .Homepage .card2 .contentcard3 .cc3lvl1b1 .cc3lvl2b3 .cc3lvl3b7 .cc3lvl4b10 {
+            * .App .HomePage .card2 .contentcard3 .cc3lvl1b1 .cc3lvl2b3 .cc3lvl3b7 .cc3lvl4b10 {
               padding-top: 0.7em;
               padding-left: 1em; }
-            * .App .Homepage .card2 .contentcard3 .cc3lvl1b1 .cc3lvl2b3 .cc3lvl3b8 .cc3lvl4b12 {
+            * .App .HomePage .card2 .contentcard3 .cc3lvl1b1 .cc3lvl2b3 .cc3lvl3b8 .cc3lvl4b12 {
               padding-top: 0.7em;
               padding-left: 1em; }
-            * .App .Homepage .card2 .contentcard3 .cc3lvl1b1 .cc3lvl2b3 .cc3lvl3b9 .cc3lvl4b14 {
+            * .App .HomePage .card2 .contentcard3 .cc3lvl1b1 .cc3lvl2b3 .cc3lvl3b9 .cc3lvl4b14 {
               padding-top: 0.7em;
               padding-left: 1em; }
-            * .App .Homepage .card2 .contentcard3 .cc3lvl1b1 .cc3lvl2b3 .cc3lvl3b10 .cc3lvl4b16 {
+            * .App .HomePage .card2 .contentcard3 .cc3lvl1b1 .cc3lvl2b3 .cc3lvl3b10 .cc3lvl4b16 {
               padding-top: 0.7em;
               padding-left: 1em; }
-    * .App .Homepage .card3 {
+    * .App .HomePage .card3 {
       background-image: url("http://res.cloudinary.com/dtvznpuay/image/upload/v1519609961/bg3_hojgf5.jpg");
       background-size: 200em;
       border-bottom: 5em solid #262C3E; }
-      * .App .Homepage .card3 .contentcard4 {
+      * .App .HomePage .card3 .contentcard4 {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -277,7 +277,7 @@
         -ms-flex-align: center;
         align-items: center;
         padding: 10em 0; }
-        * .App .Homepage .card3 .contentcard4 .cc4b1 {
+        * .App .HomePage .card3 .contentcard4 .cc4b1 {
           font-family: "Lulo_Clean_One_Bold", wingdings;
           font-size: 2.8em;
           color: #FFFFFF;
@@ -285,26 +285,26 @@
           display: -ms-flexbox;
           display: flex;
           margin-bottom: 2em; }
-          * .App .Homepage .card3 .contentcard4 .cc4b1 .cc4lvl1b1, * .App .Homepage .card3 .contentcard4 .cc4b1 .cc4innerb2 {
+          * .App .HomePage .card3 .contentcard4 .cc4b1 .cc4lvl1b1, * .App .HomePage .card3 .contentcard4 .cc4b1 .cc4innerb2 {
             padding: 0 0.2em; }
-          * .App .Homepage .card3 .contentcard4 .cc4b1 .cc4lvl1b1 {
+          * .App .HomePage .card3 .contentcard4 .cc4b1 .cc4lvl1b1 {
             color: #BEC7D5; }
-        * .App .Homepage .card3 .contentcard4 .cc4b2 {
+        * .App .HomePage .card3 .contentcard4 .cc4b2 {
           display: -webkit-box;
           display: -ms-flexbox;
           display: flex; }
-          * .App .Homepage .card3 .contentcard4 .cc4b2 .cc4lvl1b3, * .App .Homepage .card3 .contentcard4 .cc4b2 .cc4lvl1b4, * .App .Homepage .card3 .contentcard4 .cc4b2 .cc4lvl1b5 {
+          * .App .HomePage .card3 .contentcard4 .cc4b2 .cc4lvl1b3, * .App .HomePage .card3 .contentcard4 .cc4b2 .cc4lvl1b4, * .App .HomePage .card3 .contentcard4 .cc4b2 .cc4lvl1b5 {
             color: white; }
-          * .App .Homepage .card3 .contentcard4 .cc4b2 .cc4lvl1b3 {
+          * .App .HomePage .card3 .contentcard4 .cc4b2 .cc4lvl1b3 {
             background-color: #191b23;
             padding: 1em 0.5em 1em 1em; }
-          * .App .Homepage .card3 .contentcard4 .cc4b2 .cc4lvl1b4 {
+          * .App .HomePage .card3 .contentcard4 .cc4b2 .cc4lvl1b4 {
             background-color: #191b23;
             padding: 1em 0.5em 1em 0.5em; }
-          * .App .Homepage .card3 .contentcard4 .cc4b2 .cc4lvl1b5 {
+          * .App .HomePage .card3 .contentcard4 .cc4b2 .cc4lvl1b5 {
             background-color: #191b23;
             padding: 1em 1em 1em 0.5em; }
-      * .App .Homepage .card3 .contentcard5 {
+      * .App .HomePage .card3 .contentcard5 {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -313,7 +313,7 @@
         -ms-flex-direction: column;
         flex-direction: column;
         padding: 10em 0; }
-        * .App .Homepage .card3 .contentcard5 .cc5lvl1b1 {
+        * .App .HomePage .card3 .contentcard5 .cc5lvl1b1 {
           margin-bottom: 1.5em;
           font-family: "Lulo_Clean_One_Bold", wingdings;
           font-size: 2.8em;
@@ -324,12 +324,12 @@
           -webkit-box-pack: center;
           -ms-flex-pack: center;
           justify-content: center; }
-          * .App .Homepage .card3 .contentcard5 .cc5lvl1b1 .cc5lvl2b1 {
+          * .App .HomePage .card3 .contentcard5 .cc5lvl1b1 .cc5lvl2b1 {
             padding: 0 0.2em;
             color: #BEC7D5; }
-          * .App .Homepage .card3 .contentcard5 .cc5lvl1b1 .cc5lvl2b2 {
+          * .App .HomePage .card3 .contentcard5 .cc5lvl1b1 .cc5lvl2b2 {
             padding: 0 0.2em; }
-        * .App .Homepage .card3 .contentcard5 .cc5lvl1b2 {
+        * .App .HomePage .card3 .contentcard5 .cc5lvl1b2 {
           font-family: "Avenir_Light", windings;
           display: -webkit-box;
           display: -ms-flexbox;
@@ -338,14 +338,14 @@
           -webkit-box-direction: reverse;
           -ms-flex-direction: column-reverse;
           flex-direction: column-reverse; }
-          * .App .Homepage .card3 .contentcard5 .cc5lvl1b2 .cc5lvl2b3 {
+          * .App .HomePage .card3 .contentcard5 .cc5lvl1b2 .cc5lvl2b3 {
             display: -webkit-box;
             display: -ms-flexbox;
             display: flex;
             -webkit-box-pack: start;
             -ms-flex-pack: start;
             justify-content: flex-start; }
-            * .App .Homepage .card3 .contentcard5 .cc5lvl1b2 .cc5lvl2b3 .cc5lvl3b1 {
+            * .App .HomePage .card3 .contentcard5 .cc5lvl1b2 .cc5lvl2b3 .cc5lvl3b1 {
               display: -webkit-box;
               display: -ms-flexbox;
               display: flex;
@@ -357,23 +357,23 @@
               color: white;
               text-align: right;
               margin-left: 21em; }
-              * .App .Homepage .card3 .contentcard5 .cc5lvl1b2 .cc5lvl2b3 .cc5lvl3b1 .cc5lvl4b1 {
+              * .App .HomePage .card3 .contentcard5 .cc5lvl1b2 .cc5lvl2b3 .cc5lvl3b1 .cc5lvl4b1 {
                 color: #00D646;
                 font-family: "Lulo_Clean_One_Bold", wingdings;
                 font-size: 1em; }
-              * .App .Homepage .card3 .contentcard5 .cc5lvl1b2 .cc5lvl2b3 .cc5lvl3b1 .cc5lvl4b2 {
+              * .App .HomePage .card3 .contentcard5 .cc5lvl1b2 .cc5lvl2b3 .cc5lvl3b1 .cc5lvl4b2 {
                 font-weight: bold;
                 font-size: 1.4em; }
-              * .App .Homepage .card3 .contentcard5 .cc5lvl1b2 .cc5lvl2b3 .cc5lvl3b1 .cc5lvl4b3 {
+              * .App .HomePage .card3 .contentcard5 .cc5lvl1b2 .cc5lvl2b3 .cc5lvl3b1 .cc5lvl4b3 {
                 font-weight: bold; }
-          * .App .Homepage .card3 .contentcard5 .cc5lvl1b2 .cc5lvl2b4 {
+          * .App .HomePage .card3 .contentcard5 .cc5lvl1b2 .cc5lvl2b4 {
             display: -webkit-box;
             display: -ms-flexbox;
             display: flex;
             -webkit-box-pack: end;
             -ms-flex-pack: end;
             justify-content: flex-end; }
-            * .App .Homepage .card3 .contentcard5 .cc5lvl1b2 .cc5lvl2b4 .cc5lvl3b2 {
+            * .App .HomePage .card3 .contentcard5 .cc5lvl1b2 .cc5lvl2b4 .cc5lvl3b2 {
               display: -webkit-box;
               display: -ms-flexbox;
               display: flex;
@@ -385,20 +385,20 @@
               color: white;
               text-align: left;
               margin-right: 21em; }
-              * .App .Homepage .card3 .contentcard5 .cc5lvl1b2 .cc5lvl2b4 .cc5lvl3b2 .cc5lvl4b4 {
+              * .App .HomePage .card3 .contentcard5 .cc5lvl1b2 .cc5lvl2b4 .cc5lvl3b2 .cc5lvl4b4 {
                 color: #00D646;
                 font-family: "Lulo_Clean_One_Bold", wingdings;
                 font-size: 1em; }
-              * .App .Homepage .card3 .contentcard5 .cc5lvl1b2 .cc5lvl2b4 .cc5lvl3b2 .cc5lvl4b5 {
+              * .App .HomePage .card3 .contentcard5 .cc5lvl1b2 .cc5lvl2b4 .cc5lvl3b2 .cc5lvl4b5 {
                 font-weight: bold;
                 font-size: 1.4em; }
-              * .App .Homepage .card3 .contentcard5 .cc5lvl1b2 .cc5lvl2b4 .cc5lvl3b2 .cc5lvl4b6 {
+              * .App .HomePage .card3 .contentcard5 .cc5lvl1b2 .cc5lvl2b4 .cc5lvl3b2 .cc5lvl4b6 {
                 font-weight: bold; }
-              * .App .Homepage .card3 .contentcard5 .cc5lvl1b2 .cc5lvl2b4 .cc5lvl3b2 .cc5lvl4b7 {
+              * .App .HomePage .card3 .contentcard5 .cc5lvl1b2 .cc5lvl2b4 .cc5lvl3b2 .cc5lvl4b7 {
                 font-weight: bold; }
-      * .App .Homepage .card3 .contentcard6 {
+      * .App .HomePage .card3 .contentcard6 {
         margin-bottom: 15em; }
-        * .App .Homepage .card3 .contentcard6 .cc6lvl1b1 {
+        * .App .HomePage .card3 .contentcard6 .cc6lvl1b1 {
           background-color: #00003f;
           color: #FFFFFF;
           font-family: "Avenir_Light", windings;
@@ -411,7 +411,7 @@
           flex-direction: column;
           margin: 5em 15em;
           padding: 5em 5em; }
-          * .App .Homepage .card3 .contentcard6 .cc6lvl1b1 .cc6lvl2b1 {
+          * .App .HomePage .card3 .contentcard6 .cc6lvl1b1 .cc6lvl2b1 {
             display: -webkit-box;
             display: -ms-flexbox;
             display: flex;
@@ -422,26 +422,26 @@
             -webkit-box-pack: center;
             -ms-flex-pack: center;
             justify-content: center; }
-            * .App .Homepage .card3 .contentcard6 .cc6lvl1b1 .cc6lvl2b1 .cc6lvl3b1 {
+            * .App .HomePage .card3 .contentcard6 .cc6lvl1b1 .cc6lvl2b1 .cc6lvl3b1 {
               margin-right: 4em; }
-              * .App .Homepage .card3 .contentcard6 .cc6lvl1b1 .cc6lvl2b1 .cc6lvl3b1 .cc6lvl4b1 {
+              * .App .HomePage .card3 .contentcard6 .cc6lvl1b1 .cc6lvl2b1 .cc6lvl3b1 .cc6lvl4b1 {
                 font-size: 1.4em;
                 font-weight: bold;
                 margin-bottom: 1.2em; }
-              * .App .Homepage .card3 .contentcard6 .cc6lvl1b1 .cc6lvl2b1 .cc6lvl3b1 .cc6lvl4b2 {
+              * .App .HomePage .card3 .contentcard6 .cc6lvl1b1 .cc6lvl2b1 .cc6lvl3b1 .cc6lvl4b2 {
                 font-weight: bold;
                 margin-bottom: 1.4em; }
-              * .App .Homepage .card3 .contentcard6 .cc6lvl1b1 .cc6lvl2b1 .cc6lvl3b1 .cc6lvl4b3 {
+              * .App .HomePage .card3 .contentcard6 .cc6lvl1b1 .cc6lvl2b1 .cc6lvl3b1 .cc6lvl4b3 {
                 font-weight: bold;
                 margin-bottom: 1.2em; }
-              * .App .Homepage .card3 .contentcard6 .cc6lvl1b1 .cc6lvl2b1 .cc6lvl3b1 .cc6lvl4b4 {
+              * .App .HomePage .card3 .contentcard6 .cc6lvl1b1 .cc6lvl2b1 .cc6lvl3b1 .cc6lvl4b4 {
                 font-weight: bold; }
-            * .App .Homepage .card3 .contentcard6 .cc6lvl1b1 .cc6lvl2b1 .cc6lvl3b2 {
+            * .App .HomePage .card3 .contentcard6 .cc6lvl1b1 .cc6lvl2b1 .cc6lvl3b2 {
               -webkit-box-pack: center;
               -ms-flex-pack: center;
               justify-content: center;
               margin-left: 4em; }
-              * .App .Homepage .card3 .contentcard6 .cc6lvl1b1 .cc6lvl2b1 .cc6lvl3b2 .searchb1, * .App .Homepage .card3 .contentcard6 .cc6lvl1b1 .cc6lvl2b1 .cc6lvl3b2 .searchb2, * .App .Homepage .card3 .contentcard6 .cc6lvl1b1 .cc6lvl2b1 .cc6lvl3b2 .searchb3 {
+              * .App .HomePage .card3 .contentcard6 .cc6lvl1b1 .cc6lvl2b1 .cc6lvl3b2 .searchb1, * .App .HomePage .card3 .contentcard6 .cc6lvl1b1 .cc6lvl2b1 .cc6lvl3b2 .searchb2, * .App .HomePage .card3 .contentcard6 .cc6lvl1b1 .cc6lvl2b1 .cc6lvl3b2 .searchb3 {
                 border: none;
                 margin-bottom: 12px;
                 padding: 5px;
@@ -450,34 +450,34 @@
                 width: 175px;
                 font-family: "Avenir_Light", windings;
                 font-size: 1em; }
-              * .App .Homepage .card3 .contentcard6 .cc6lvl1b1 .cc6lvl2b1 .cc6lvl3b2 .cc6lvl4b5 {
+              * .App .HomePage .card3 .contentcard6 .cc6lvl1b1 .cc6lvl2b1 .cc6lvl3b2 .cc6lvl4b5 {
                 display: -webkit-box;
                 display: -ms-flexbox;
                 display: flex; }
-                * .App .Homepage .card3 .contentcard6 .cc6lvl1b1 .cc6lvl2b1 .cc6lvl3b2 .cc6lvl4b5 .cc6lvl5b1 {
+                * .App .HomePage .card3 .contentcard6 .cc6lvl1b1 .cc6lvl2b1 .cc6lvl3b2 .cc6lvl4b5 .cc6lvl5b1 {
                   padding-right: 15px; }
-                  * .App .Homepage .card3 .contentcard6 .cc6lvl1b1 .cc6lvl2b1 .cc6lvl3b2 .cc6lvl4b5 .cc6lvl5b1 .searchb2 {
+                  * .App .HomePage .card3 .contentcard6 .cc6lvl1b1 .cc6lvl2b1 .cc6lvl3b2 .cc6lvl4b5 .cc6lvl5b1 .searchb2 {
                     margin-right: 10px; }
-              * .App .Homepage .card3 .contentcard6 .cc6lvl1b1 .cc6lvl2b1 .cc6lvl3b2 .cc6lvl4b6 .searchb2 {
+              * .App .HomePage .card3 .contentcard6 .cc6lvl1b1 .cc6lvl2b1 .cc6lvl3b2 .cc6lvl4b6 .searchb2 {
                 width: 365px; }
-              * .App .Homepage .card3 .contentcard6 .cc6lvl1b1 .cc6lvl2b1 .cc6lvl3b2 .cc6lvl4b7 .searchb3 {
+              * .App .HomePage .card3 .contentcard6 .cc6lvl1b1 .cc6lvl2b1 .cc6lvl3b2 .cc6lvl4b7 .searchb3 {
                 width: 365px;
                 height: 150px;
                 margin-bottom: 6px; }
-              * .App .Homepage .card3 .contentcard6 .cc6lvl1b1 .cc6lvl2b1 .cc6lvl3b2 .cc6button {
+              * .App .HomePage .card3 .contentcard6 .cc6lvl1b1 .cc6lvl2b1 .cc6lvl3b2 .cc6button {
                 background-color: #00D646;
                 color: black;
                 padding: 0.7em;
                 text-align: center; }
-                * .App .Homepage .card3 .contentcard6 .cc6lvl1b1 .cc6lvl2b1 .cc6lvl3b2 .cc6button:hover {
+                * .App .HomePage .card3 .contentcard6 .cc6lvl1b1 .cc6lvl2b1 .cc6lvl3b2 .cc6button:hover {
                   background-color: #04643d; }
-                * .App .Homepage .card3 .contentcard6 .cc6lvl1b1 .cc6lvl2b1 .cc6lvl3b2 .cc6button:active {
+                * .App .HomePage .card3 .contentcard6 .cc6lvl1b1 .cc6lvl2b1 .cc6lvl3b2 .cc6button:active {
                   background-color: #003612; }
-          * .App .Homepage .card3 .contentcard6 .cc6lvl1b1 .cc6lvl2b2 {
+          * .App .HomePage .card3 .contentcard6 .cc6lvl1b1 .cc6lvl2b2 {
             margin-top: 4em; }
-            * .App .Homepage .card3 .contentcard6 .cc6lvl1b1 .cc6lvl2b2 .cc6lvl3b3 {
+            * .App .HomePage .card3 .contentcard6 .cc6lvl1b1 .cc6lvl2b2 .cc6lvl3b3 {
               text-align: center; }
-        * .App .Homepage .card3 .contentcard6 .cc6lvl1b2 {
+        * .App .HomePage .card3 .contentcard6 .cc6lvl1b2 {
           display: -webkit-box;
           display: -ms-flexbox;
           display: flex;
@@ -485,3 +485,21 @@
           -ms-flex-pack: center;
           justify-content: center;
           margin: 15em 0; }
+    * .App .ProjectPage1 .pp1lvl1b1 {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      border: 5px solid red;
+      background-color: #3c4662;
+      color: white; }
+      * .App .ProjectPage1 .pp1lvl1b1 .pp1lvl2b1 {
+        border: 5px solid cyan;
+        font-family: "Lulo_Clean_One_Bold", wingdings; }
+    * .App .ProjectPage2 .pp2lvl1b1 {
+      border: 5px solid purple; }
+    * .App .ProjectPage3 .pp3lvl1b1 {
+      border: 5px solid coral; }

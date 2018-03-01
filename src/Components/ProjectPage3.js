@@ -13,33 +13,45 @@ class ProjectPage3 extends Component {
             <div className="ProjectPage3">
                 <div className="pp3lvl1b1">
                     <div className="pp3lvl2b1">
-                        <div className="pp3lvl3b1"><img src={img1} height="120px"/></div>
+                        <div className="pp3lvl3b1"><img src={img1} height="300px"/></div>
                     </div>
                     <div className="pp3lvl2b2">
-                        <div className="pp3lvl3b3">
+                        <div className="pp3lvl3b2">
                             <div className="pp3lvl4b1">Brief</div>
                             <div className="pp3lvl4b2">Beyond The Classroom is a modern teaching tool to help teachers aid students in learning how to read better without their physical presence required.</div>
                         </div>
-                        <div className="pp3lvl3b4">
+                        <div className="pp3lvl3b3">
                             <div className="pp3lvl4b3">Objective</div>
                             <div className="pp3lvl4b4">My objective with this app was to reinvent the Teacher and Student Video screens.</div>
                         </div>
-                        <div className="pp3lvl3b5">
+                        <div className="pp3lvl3b4">
                             <div className="pp3lvl4b5">Approach</div>
                             <div className="pp3lvl4b6">I approached this with: firstly the teacher in mind and what the teacher would need to ensure the students success.</div>
                         </div>
                     </div>
 
-
                     <div className="pp3lvl2b3">
-                        <div className="pp3lvl3b6">Wireframes</div>
-                        <div className="pp3lvl3b7">Some lo-fi wireframes for the main two screens that I were responsible for.</div>
-                        <div className="pp3lvl3b8">
-                            <div className="pp3lvl4b7"><img src={img2} height="120px"/></div>
-                            <div className="pp3lvl4b8"><img src={img3} height="120px"/></div>                
+
+                        <div className="pp3lvl3b5">
+                            <div className="pp3lvl4b7">
+                                <div className="pp3lvl5b1">Wireframes</div>
+                                <div className="pp3lvl5b2">Some lo-fi wireframes for the main two screens that I were responsible for.</div>
+                            </div>
+                            <div className="pp3lvl4b8">
+                                <div className="pp3lvl5b3">
+                                    <div className="pp3lvl6b1"><img src={img2} height="500px"/></div>
+                                </div>
+                                <div className="pp3lvl5b4">
+                                    <div className="pp3lvl6b2"><img src={img3} height="500px"/></div>
+                                </div>
+
+                            </div>                        
                         </div>
+
                     </div>
 
+
+ 
 
                     <div className="pp3lvl2b4">
                         <div className="pp3lvl3b9">User Persona</div>
